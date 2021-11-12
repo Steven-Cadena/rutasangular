@@ -1,4 +1,14 @@
 <h1>Ejemplo rutas parámetros Angular</h1>
+<hr/>
+<button (click)="redirect(66)">
+    Enviar 66
+</button>
+<button (click)="redirect(99)">
+    Enviar 99
+</button>
+<button (click)="redirect(88)">
+    Enviar 88
+</button>
 <div *ngIf="numero">
     <h1 style="color: blue;">
         El doble de {{ numero }} es 
