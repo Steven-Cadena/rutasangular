@@ -1,1 +1,12 @@
-<p>numerodoble works!</p>
+<h1>Ejemplo rutas parámetros Angular</h1>
+<div *ngIf="numero">
+    <h1 style="color: blue;">
+        El doble de {{ numero }} es 
+        <span style="color: red;"> {{ doble }} </span>
+    </h1>
+</div>
+<div *ngIf="!numero">
+    <h1 style="color: red;">
+        No hemos recibido parámetro.
+    </h1>
+</div>

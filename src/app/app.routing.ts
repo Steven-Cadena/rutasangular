@@ -19,6 +19,7 @@ const appRoutes: Routes = [
     {path:"cine",component: CineComponent},
     {path:"television",component: TelevisionComponent},
     {path:"numerodoble",component: NumerodobleComponent},
+    {path:"numerodoble/:numero",component: NumerodobleComponent},
     {path:"**", component: Error404Component},
 ];
 
