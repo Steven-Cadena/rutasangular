@@ -1,0 +1,24 @@
+<div>
+    <h1 style="color: blue;"> 
+        Marca: {{car.marca}} , Modelo: {{car.modelo}}
+    </h1>
+    <h2 [ngClass]="{
+        verde: car.estado == true,
+        rojo: car.estado == false
+    }">
+        {{mensaje}}
+    </h2>
+    <hr/>
+    <h2>
+        Velocidad Máxima: <span style="color: crimson;">{{car.velocidadMaxima}}</span>
+    </h2>
+    <h2>
+        Velocidad Actual: <span style="color: darkcyan;">{{car.velocidad}}</span>
+    </h2>
+    <button (click)="encenderCoche()">
+        Encender/Apagar
+    </button>
+    <button (click)="acelerarCoche()">
+        Acelerar coche
+    </button>
+</div>

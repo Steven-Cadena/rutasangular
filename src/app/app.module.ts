@@ -15,6 +15,8 @@ import { NumerodobleComponent } from './components/numerodoble/numerodoble.compo
 import { MenucollatzComponent } from './components/menucollatz/menucollatz.component';
 import { CollatzComponent } from './components/collatz/collatz.component';
 import { ListaproductosComponent } from './components/listaproductos/listaproductos.component';
+import { CocheComponent } from './components/coche/coche.component';
+import { ConcesionarioComponent } from './components/concesionario/concesionario.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ListaproductosComponent } from './components/listaproductos/listaproduc
     NumerodobleComponent,
     MenucollatzComponent,
     CollatzComponent,
-    ListaproductosComponent
+    ListaproductosComponent,
+    CocheComponent,
+    ConcesionarioComponent
   ],
   imports: [
     BrowserModule,
