@@ -1,0 +1,7 @@
+<p>listaproductos works!</p>
+<div *ngFor="let producto of productos">
+    <h1 style="color: blue;">
+        {{producto.nombre}}, Precio: {{producto.precio}} €
+    </h1>
+    <img src="{{producto.imagen}}" style="width: 150px; height: 150px;"/>
+</div>
