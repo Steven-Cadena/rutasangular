@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute,Params,Router } from '@angular/router';
 
+//ActivateRoute = sirve para poder seleccionar los parametros enviados 
 @Component({
   selector: 'app-collatz',
   templateUrl: './collatz.component.html',

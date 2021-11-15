@@ -11,7 +11,7 @@ export class MenucollatzComponent implements OnInit {
   public numAleatorio!: number;
 
   constructor() { 
-    this.numeros = [];
+    this.numeros = []; //new Array<number>();
   }
 
   ngOnInit(): void {
