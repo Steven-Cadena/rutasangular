@@ -8,6 +8,11 @@ import { Coche } from 'src/app/models/coche';
 })
 export class ConcesionarioComponent implements OnInit {
   public coches : Array<Coche>;
+  public mensaje!: string;
+
+  seleccionarCochePadre(event:Coche): void{
+    this.mensaje = "Coche seleccionado." + event.marca + ",Modelo:" + event.modelo;
+  }
   constructor() { 
     this.coches = [
       new Coche("Ford","Mustang",0 ,320, 30,false),

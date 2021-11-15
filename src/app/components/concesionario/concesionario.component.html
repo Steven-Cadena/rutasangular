@@ -1,5 +1,10 @@
 <h1>Concesionario de coches</h1>
+<div style="background-color: red; color: white;">
+     {{mensaje}}
+</div>
 <div *ngFor="let coche of coches">
-    <app-coche [car]="coche"></app-coche>
+    <app-coche [car]="coche"
+        (seleccionarCoche)="seleccionarCochePadre($event)"
+    ></app-coche>
     <br/>
 </div>
